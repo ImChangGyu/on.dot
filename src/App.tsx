@@ -1,10 +1,14 @@
 import React from 'react';
+import { RecoilRoot } from "recoil";
+import { TextBox } from "./Components";
 
 function App() {
   return (
-    <div>
-      Hello, World!
-    </div>
+    <>
+      <RecoilRoot>
+        <TextBox />
+      </RecoilRoot>
+    </>
   );
 }
 
